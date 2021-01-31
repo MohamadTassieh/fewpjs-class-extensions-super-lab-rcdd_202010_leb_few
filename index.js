@@ -21,5 +21,5 @@ class Evergreen extends tree{
     super(species);
     this.name=name;
   }
-  
+
 }
