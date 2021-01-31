@@ -7,3 +7,9 @@ class tree{
     return "A tree is a perennial plant with an elongated stem, or trunk, supporting branches and leaves.";
   }
 }
+class Deciduous extends tree{
+  constructor(species,name){
+    super(species);
+    this.name=name;
+  }
+}
